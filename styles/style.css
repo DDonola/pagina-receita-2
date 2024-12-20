@@ -17,36 +17,95 @@
 
     --font-family01:"Outfit", sans-serif;
     --font-family02:"Young Serif", sans-serif;
-    --text02: 400 16px var(--font-family01);
-    --text03: 600 16px var(--font-family01);
-    --text04: 700 16px var(--font-family01);
+    --text01: 400 16px var(--font-family01);
+    --text02: 600 16px var(--font-family01);
+    --text03: 700 16px var(--font-family01);
+}
+
+img {
+    border-radius: 24px;
+    width: 615px;
 }
 
 h1 {
     font-family: var(--font-family02);
     font-weight: 400;
+    color: var(--stone900);
+    margin: 20px 0px 20px 0px;
 }
 
 h2 {
     font-family: var(--font-family02);
     font-weight: 400;
+    color: var(--brown800);
+    margin: 20px 0px 20px 0px;
 }
 
 h3 {
     font-family: var(--font-family01);
+    color: var(--rose800);
+    margin: 0px 0px 20px 10px;
 }
 
 p {
-    font: var(--);
-    color: var(--);
+    font: var(--text01);
+    color: var(--stone600);
+    margin: 0px 0px 30px 0px;
 }
 
-span {
+ul {
+    color: var(--stone900);
+    font: var(--text01)
+}
+
+li {
+    margin: 0px 0px 10px 30px;
+}
+ 
+
+ol {
+    color: var(--stone900);
+    font: var(--text01);
+    li::marker {
+        font-weight: bold;
+        color: var(--brown800);
+    }
+}
+
+span { font: var(--text03);
+       color: var(--stone600);
 }
 
 .line {
     width: 100%;
     height: 1px;
     background-color: var(--stone150);
-    margin-bottom: 1rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#preparation {
+    li::marker {
+        color: var(--rose800);
+    }
+}
+
+#calories {
+    margin-left: 245px;
+    color: var(--brown800);
+}
+
+#carbs {
+    margin-left: 264px;
+    color: var(--brown800);
+}
+
+#protein {
+    margin-left: 254px;
+    color: var(--brown800);
+}
+
+#fat {
+    margin-left: 280px;
+    color: var(--brown800);
 }
